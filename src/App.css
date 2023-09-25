@@ -13,26 +13,72 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1{
+  color: black;
+  margin-top: 50px;
+  font-family: Poppins;
+  font-size: 27.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  margin-top: 75px;
+}
+
+h3{
+  color: #858A93;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 14px;
+}
+.App .xbutton{
+  float: right;
+  margin-right: 55px;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+
+.App .continue{
   color: white;
+  background-color: #236BFE;
+  width: 326px;
+  height: 45px;
+  border-radius: 46px;
+  margin-top: 50px;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.App .contracts .box{
+  margin-top: 50px;
+  
 }
+.App .contracts .box .largebutton{
+  width: 275px;
+  height: 300px;
+  background-color: white;
+  border-radius: 17px;
+  border: 1px solid #6388D8;
+  margin-left: 20px;
+  margin-top: 30px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.App .contracts .box .largebutton par{
+  color: #818893;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  
+}
+.App .contracts .box img{
+  width: 64px;
+  height: 64px;
+}
+.App .contracts .box .largebutton .radio{
+  margin-top: 20px;
+  height: 23px;
+  width: 23px;
 }
