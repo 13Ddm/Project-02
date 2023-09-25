@@ -31,11 +31,6 @@ function App() {
           <par>Self Employed Work with Project basis Individually.</par><br />
           <input type="radio" value="Contractor" name="contract-button" className='radio'/>
           </button>
-
-
-
-
-          
         </div>
       </div>
         
