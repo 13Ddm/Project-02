@@ -1,23 +1,45 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="xbutton">
+        <button>x</button>
+      </div><br />
+
+          <h1>Create a new Contract</h1>
+          <h3>Start Creating your Contract by Selecting the most Relevant Type.</h3>
+        
+      <div className="contracts">
+         <div className="box">
+         <button className='largebutton'><img src="./images/plus2.png" alt='Blank Contract'/>
+          <h2>Blank Contract</h2>
+          <par>Create Customs Template as Your Required. </par><br />
+          <input type="radio" value="Contractor" name="contract-button" className='radio'/>
+          </button>
+
+          <button className='largebutton'><img src="./images/employee.png" alt='cemployee'/>
+          <h2>Employee</h2>
+          <par>Team Member of the Company Work with a Schedule. </par><br />
+          <input type="radio" value="Contractor" name="contract-button" className='radio'/>
+          </button>
+
+          <button className='largebutton'><img src="./images/contractor.png" alt='contractor'/>
+          <h2>Contractor</h2>
+          <par>Self Employed Work with Project basis Individually.</par><br />
+          <input type="radio" value="Contractor" name="contract-button" className='radio'/>
+          </button>
+
+
+
+
+          
+        </div>
+      </div>
+        
+          <button className="continue">Continue</button>
     </div>
   );
 }
